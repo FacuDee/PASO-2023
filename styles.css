@@ -1,0 +1,468 @@
+body {
+    margin: 0;
+    background-color: white;
+}
+
+header {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-image: url(./IMGS/urna.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+header h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    font-size: 90px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+
+header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.FDT,
+.Juntos,
+.LLA,
+.FIT {
+    width: 25%;
+    padding: 10px;
+}
+
+.containerFuerzas {
+    display: flex;
+    justify-content: space-around;
+}
+
+.containerFuerzas h3 {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.containerFuerzas h1 {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 72px;
+}
+
+.totalFDT {
+    border-radius: 25px;
+    margin-top: 10px;
+    background-color: cornflowerblue;
+    color: white;
+    width: 100%;
+    height: 150px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    border: 2px solid white;
+}
+
+.internaFDT {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+    background-color: cornflowerblue;
+    color: white;
+    width: 100%;
+    height: 200px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    border: 2px solid white;
+}
+
+.totalJuntos {
+    border-radius: 25px;
+    margin-top: 10px;
+    background-color: yellow;
+    color: black;
+    width: 100%;
+    height: 150px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    border: 2px solid white;
+}
+
+.internaJuntos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+    background-color: yellow;
+    color: black;
+    width: 100%;
+    height: 200px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    border: 2px solid white;
+}
+
+.totalLLA {
+    border-radius: 25px;
+    margin-top: 10px;
+    background-color: black;
+    color: yellow;
+    width: 100%;
+    height: 150px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    border: 2px solid yellow;
+}
+
+.internaLLA {
+    margin-top: 10px;
+    background-color: black;
+    color: yellow;
+    width: 100%;
+    height: 200px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    border: 2px solid yellow;
+}
+
+.totalFIT {
+    border-radius: 25px;
+    margin-top: 10px;
+    background-color: red;
+    color: white;
+    width: 100%;
+    height: 150px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    border: 2px solid white;
+}
+
+.internaFIT {
+    margin-top: 10px;
+    background-color: red;
+    color: white;
+    width: 100%;
+    height: 200px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    border: 2px solid white;
+}
+
+button {
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.Galli {
+    flex-grow: 1;
+    background-image: url(./IMGS/4Galli.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    height: 100%;
+    width: 50%;
+}
+
+.Galli::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.Galli button {
+    background-color: yellow;
+    color: black;
+    border-radius: 15px;
+    position: absolute;
+    top: 80%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    height: 20%;
+    width: 50%;
+}
+
+
+.Vergel {
+    flex-grow: 1;
+    background-image: url(./IMGS/5Vergel.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    height: 100%;
+    width: 50%;
+}
+
+.Vergel::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.Vergel button {
+    background-color: yellow;
+    color: black;
+    border-radius: 15px;
+    position: absolute;
+    top: 80%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    height: 20%;
+    width: 50%;
+}
+
+.Wesner {
+    flex-grow: 1;
+    background-image: url(./IMGS/1Wesner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    height: 100%;
+    width: 33%;
+    overflow: hidden;
+}
+
+.Wesner::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.Wesner button {
+    background-color: cornflowerblue;
+    color: white;
+    border-radius: 15px;
+    position: absolute;
+    top: 80%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    height: 20%;
+    width: 66%;
+}
+
+.Parra {
+    flex-grow: 1;
+    background-image: url(./IMGS/2Parra.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    height: 100%;
+    width: 33%;
+}
+
+.Parra::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.Parra button {
+    background-color: cornflowerblue;
+    color: white;
+    border-radius: 15px;
+    position: absolute;
+    top: 80%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    height: 20%;
+    width: 66%;
+}
+
+.Rodríguez {
+    flex-grow: 1;
+    background-image: url(./IMGS/3Rodríguez.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    height: 100%;
+    width: 33%;
+}
+
+.Rodríguez::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.Rodríguez button {
+    background-color: cornflowerblue;
+    color: white;
+    border-radius: 15px;
+    position: absolute;
+    top: 80%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    height: 20%;
+    width: 66%;
+}
+
+.Arouxet {
+    flex-grow: 1;
+    background-image: url(./IMGS/6Arouxet2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+
+.Arouxet::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.Arouxet button {
+    background-color: black;
+    color: yellow;
+    border-radius: 15px;
+    position: absolute;
+    top: 80%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    height: 20%;
+    width: 50%;
+}
+
+.Mestralet {
+    flex-grow: 1;
+    background-image: url(./IMGS/7Mestralet3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+
+.Mestralet::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.Mestralet button {
+    background-color: red;
+    color: white;
+    border-radius: 15px;
+    position: absolute;
+    top: 80%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    height: 20%;
+    width: 50%;
+}
+
+footer {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #783C90;
+    color: white;
+    height: 150px;
+}
+
+img {
+    margin: 10px
+}
+
+/* Para versión móvil */
+
+@media (max-width: 883px) {
+
+    header {
+        height: 300px;
+    }
+
+    header h1 {
+        font-size: 60px;
+    }
+
+    .FDT,
+    .Juntos,
+    .LLA,
+    .FIT {
+        width: 100%;
+    }
+
+    .containerFuerzas {
+        flex-wrap: wrap;
+    }
+
+}
