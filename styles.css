@@ -447,6 +447,17 @@ footer p {
     font-size: 32px;
 }
 
+.containerFuerzas p {
+        position: absolute;
+        color: white;
+        top: 0;
+        left: 0;
+        right: 0;
+        font-size: 16px;
+        font-family: sans-serif, Verdana;
+        font-weight: lighter;
+}
+
 /* Para versión móvil */
 
 @media (max-width: 883px) {
