@@ -428,7 +428,6 @@ button {
 }
 
 footer {
-    margin-top: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -440,8 +439,7 @@ footer {
 #logoFuente {
     float: left; 
     height: 75%; 
-    width: auto;;
-    margin-right: 100px;
+    width: auto;
 }
 
 footer p {
@@ -471,7 +469,7 @@ footer p {
         flex-wrap: wrap;
     }
 
-    footer {
+    /* footer {
         display: flex;
         justify-content: space-around;
     }
@@ -482,8 +480,9 @@ footer p {
     }
 
     footer p {
-        font-size: 20px;
+        display: block;
+        font-size: 16px;
         margin-right: 20px;
-    }
+    } */
 
 }
