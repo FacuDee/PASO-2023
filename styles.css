@@ -453,7 +453,7 @@ footer p {
         top: 0;
         font-size: 16px;
         font-family: sans-serif, Verdana;
-        font-weight: bold;
+        font-weight: lighter;
 }
 
 /* Para versión móvil */
@@ -478,6 +478,11 @@ footer p {
     .containerFuerzas {
         flex-wrap: wrap;
     }
+
+    .containerFuerzas p {
+        font-size: 18px;
+        font-weight: bold;
+}
 
     /* footer {
         display: flex;
