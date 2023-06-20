@@ -198,7 +198,6 @@ button {
     width: 50%;
 }
 
-
 .Vergel {
     flex-grow: 1;
     background-image: url(./IMGS/5Vergel.jpg);
@@ -438,8 +437,15 @@ footer {
     height: 150px;
 }
 
-img {
-    margin: 10px
+#logoFuente {
+    float: left; 
+    height: 75%; 
+    width: auto;;
+    margin-right: 100px;
+}
+
+footer p {
+    font-size: 32px;
 }
 
 /* Para versión móvil */
@@ -463,6 +469,21 @@ img {
 
     .containerFuerzas {
         flex-wrap: wrap;
+    }
+
+    footer {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    #logoFuente {
+        margin-left: 20px;
+        margin-right: 10px;
+    }
+
+    footer p {
+        font-size: 20px;
+        margin-right: 20px;
     }
 
 }
