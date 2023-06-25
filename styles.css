@@ -36,7 +36,9 @@ header::before {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-.FDT,
+/* Estilos generales de las fuerzas */
+
+.UxP,
 .Juntos,
 .LLA,
 .FIT,
@@ -67,451 +69,97 @@ header::before {
     font-size: 72px;
 }
 
-.totalJuntos {
-    border-radius: 25px;
-    margin-top: 10px;
-    background-color: yellow;
-    color: black;
-    width: 100%;
-    height: 150px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
-    border: 2px solid white;
-}
-
-.internaJuntos {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 10px;
-    background-color: yellow;
-    color: black;
-    width: 100%;
-    height: 300px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
-    border: 2px solid white;
-}
-
-.totalFDT {
-    border-radius: 25px;
-    margin-top: 10px;
-    background-color: cornflowerblue;
-    color: white;
-    width: 100%;
-    height: 150px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
-    border: 2px solid white;
-}
-
-.internaFDT {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 10px;
-    background-color: cornflowerblue;
-    color: white;
-    width: 100%;
-    height: 300px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
-    border: 2px solid white;
-}
-
-.totalLLA {
-    border-radius: 25px;
-    margin-top: 10px;
-    background-color: black;
-    color: yellow;
-    width: 100%;
-    height: 150px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
-    border: 2px solid yellow;
-}
-
-.internaLLA {
-    margin-top: 10px;
-    background-color: black;
-    color: yellow;
-    width: 100%;
-    height: 300px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
-    border: 2px solid yellow;
-}
-
-.totalFIT {
-    border-radius: 25px;
-    margin-top: 10px;
-    background-color: red;
-    color: white;
-    width: 100%;
-    height: 150px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
-    border: 2px solid white;
-}
-
-.internaFIT {
-    margin-top: 10px;
-    background-color: red;
-    color: white;
-    width: 100%;
-    height: 300px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
-    border: 2px solid white;
-}
-
-.totalPyV {
-    border-radius: 25px;
-    margin-top: 10px;
-    background-color:darkblue;
-    color: white;
-    width: 100%;
-    height: 150px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
-    border: 2px solid white;
-}
-
-.internaPyV {
-    margin-top: 10px;
-    background-color: darkblue;
-    color: white;
-    width: 100%;
-    height: 300px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
-    border: 2px solid white;
-}
-
+.totalJuntos, 
+.totalUxP, 
+.totalLLA, 
+.totalFIT, 
+.totalPyV, 
 .totalMAS {
     border-radius: 25px;
     margin-top: 10px;
-    background-color: white;
-    color: red;
     width: 100%;
     height: 150px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
-    border: 2px solid white;
 }
 
+.internaJuntos,
+.internaUxP,
+.internaLLA,
+.internaFIT,
+.internaPyV,
 .internaMAS {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     margin-top: 10px;
-    background-color: white;
-    color: red;
     width: 100%;
     height: 300px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
     border: 2px solid white;
 }
 
-button {
-    font-family:Arial, Helvetica, sans-serif;
-    font-weight: bold;
-}
+/* Detalles estilos por fuerza en particular*/
 
-.Galli {
-    flex-grow: 1;
-    background-image: url(./IMGS/4Galli.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    height: 100%;
-    width: 50%;
-}
-
-.Galli::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.3);
-}
-
-.Galli button {
+.totalJuntos,
+.internaJuntos {
     background-color: yellow;
     color: black;
-    border-radius: 15px;
-    position: absolute;
-    top: 80%;
-    transform: translateY(-50%);
-    font-size: 24px;
-    height: 15%;
-    width: 66%;
 }
 
-.Dalton {
-    flex-grow: 1;
-    background-image: url(./IMGS/dalton.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    height: 100%;
-    width: 50%;
-}
-
-.Dalton::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.3);
-}
-
-.Dalton button {
-    background-color: yellow;
-    color: black;
-    border-radius: 15px;
-    position: absolute;
-    top: 80%;
-    transform: translateY(-50%);
-    font-size: 24px;
-    height: 15%;
-    width: 66%;
-}
-
-.Spina {
-    flex-grow: 1;
-    background-image: url(./IMGS/spina.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    height: 100%;
-    width: 50%;
-}
-
-.Spina::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.3);
-}
-
-.Spina button {
-    background-color: yellow;
-    color: black;
-    border-radius: 15px;
-    position: absolute;
-    top: 80%;
-    transform: translateY(-50%);
-    font-size: 24px;
-    height: 15%;
-    width: 66%;
-}
-
-.Wesner {
-    flex-grow: 1;
-    background-image: url(./IMGS/1Wesner.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    height: 100%;
-    width: 33%;
-    overflow: hidden;
-}
-
-.Wesner::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.3);
-}
-
-.Wesner button {
+.totalUxP,
+.internaUxP {
     background-color: cornflowerblue;
     color: white;
-    border-radius: 15px;
-    position: absolute;
-    top: 80%;
-    transform: translateY(-50%);
-    font-size: 24px;
-    height: 15%;
-    width: 66%;
 }
 
-.Parra {
-    flex-grow: 1;
-    background-image: url(./IMGS/2Parra.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    height: 100%;
-    width: 33%;
-}
-
-.Parra::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.3);
-}
-
-.Parra button {
-    background-color: cornflowerblue;
-    color: white;
-    border-radius: 15px;
-    position: absolute;
-    top: 80%;
-    transform: translateY(-50%);
-    font-size: 24px;
-    height: 15%;
-    width: 66%;
-}
-
-.Rodríguez {
-    flex-grow: 1;
-    background-image: url(./IMGS/3Rodríguez.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    height: 100%;
-    width: 33%;
-}
-
-.Rodríguez::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.3);
-}
-
-.Rodríguez button {
-    background-color: cornflowerblue;
-    color: white;
-    border-radius: 15px;
-    position: absolute;
-    top: 80%;
-    transform: translateY(-50%);
-    font-size: 24px;
-    height: 15%;
-    width: 66%;
-}
-
-.Arouxet {
-    flex-grow: 1;
-    background-image: url(./IMGS/ArouxetH.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    height: 100%;
-    width: 100%;
-}
-
-.Arouxet::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.3);
-}
-
-.Arouxet button {
+.totalLLA,
+.internaLLA {
     background-color: black;
     color: yellow;
-    border-radius: 15px;
-    position: absolute;
-    top: 80%;
-    transform: translateY(-50%);
-    font-size: 24px;
-    height: 15%;
-    width: 50%;
+    border: 2px solid yellow;
 }
 
-.Mestralet {
-    flex-grow: 1;
-    background-image: url(./IMGS/AgusSolano.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    height: 100%;
-    width: 100%;
-}
-
-.Mestralet::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.3);
-}
-
-.Mestralet button {
+.totalFIT,
+.internaFIT {
     background-color: red;
     color: white;
+}
+
+.totalPyV,
+.internaPyV {
+    background-color:darkblue;
+    color: white;
+}
+
+.totalMAS,
+.internaMAS {
+    background-color: white;
+    color: red;
+    border: 2px solid red;
+}
+
+button {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
     border-radius: 15px;
     position: absolute;
     top: 80%;
     transform: translateY(-50%);
     font-size: 24px;
     height: 15%;
-    width: 50%;
 }
 
-.Aguirre {
+.Galli,
+.Dalton,
+.Spina,
+.Wesner,
+.Parra,
+.Rodríguez,
+.Arouxet,
+.Mestralet,
+.Aguirre,
+.Schmale {
     flex-grow: 1;
-    background-image: url(./IMGS/Aguirre.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -522,47 +170,17 @@ button {
     flex-direction: column;
     text-align: center;
     height: 100%;
-    width: 100%;
 }
 
-.Aguirre::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.3);
-}
-
-.Aguirre button {
-    background-color: darkblue;
-    color: white;
-    border-radius: 15px;
-    position: absolute;
-    top: 80%;
-    transform: translateY(-50%);
-    font-size: 24px;
-    height: 15%;
-    width: 50%;
-}
-
-.Schmale {
-    flex-grow: 1;
-    background-image: url(./IMGS/Schmale.jpg);
-    background-repeat: no-repeat;
-    background-position: top;
-    background-size: cover;
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    height: 100%;
-    width: 100%;
-}
-
+.Galli::before,
+.Dalton::before,
+.Spina::before,
+.Wesner::before,
+.Parra::before,
+.Rodríguez::before,
+.Arouxet::before,
+.Mestralet::before,
+.Aguirre::before,
 .Schmale::before {
     content: "";
     position: absolute;
@@ -573,15 +191,113 @@ button {
     background-color: rgba(0, 0, 0, 0.3);
 }
 
+.Galli {
+    background-image: url(./IMGS/4Galli.jpg);
+    width: 33%;
+}
+
+.Galli button {
+    background-color: yellow;
+    color: black;
+    width: 66%;
+}
+
+.Dalton {
+    background-image: url(./IMGS/dalton.jpg);
+    width: 33%;
+}
+
+.Dalton button {
+    background-color: yellow;
+    color: black;
+    width: 66%;
+}
+
+.Spina {
+    background-image: url(./IMGS/spina.jpg);
+    width: 33%;
+}
+
+.Spina button {
+    background-color: yellow;
+    color: black;
+    width: 66%;
+}
+
+.Wesner {
+    background-image: url(./IMGS/1Wesner.jpg);
+    width: 33%;
+}
+
+.Wesner button {
+    background-color: cornflowerblue;
+    color: white;
+    width: 66%;
+}
+
+.Parra {
+    background-image: url(./IMGS/2Parra.jpg);
+    width: 33%;
+}
+
+.Parra button {
+    background-color: cornflowerblue;
+    color: white;
+    width: 66%;
+}
+
+.Rodríguez {
+    background-image: url(./IMGS/3Rodríguez.jpg);
+    width: 33%;
+}
+
+.Rodríguez button {
+    background-color: cornflowerblue;
+    color: white;
+    width: 66%;
+}
+
+.Arouxet {
+    background-image: url(./IMGS/ArouxetH.jpg);
+    width: 100%;
+}
+
+.Arouxet button {
+    background-color: black;
+    color: yellow;
+    width: 50%;
+}
+
+.Mestralet {
+    background-image: url(./IMGS/AgusSolano.jpg);
+    width: 100%;
+}
+
+.Mestralet button {
+    background-color: red;
+    color: white;
+    width: 50%;
+}
+
+.Aguirre {
+    background-image: url(./IMGS/Aguirre.jpg);
+    width: 100%;
+}
+
+.Aguirre button {
+    background-color: darkblue;
+    color: white;
+    width: 50%;
+}
+
+.Schmale {
+    background-image: url(./IMGS/Schmale.jpg);
+    width: 100%;
+}
+
 .Schmale button {
     background-color:white;
     color: red;
-    border-radius: 15px;
-    position: absolute;
-    top: 80%;
-    transform: translateY(-50%);
-    font-size: 24px;
-    height: 15%;
     width: 50%;
 }
 
@@ -626,7 +342,7 @@ footer p {
         font-size: 60px;
     }
 
-    .FDT,
+    .UxP,
     .Juntos,
     .LLA,
     .FIT,
