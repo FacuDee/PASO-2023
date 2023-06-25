@@ -39,8 +39,10 @@ header::before {
 .FDT,
 .Juntos,
 .LLA,
-.FIT {
-    width: 25%;
+.FIT,
+.PyV,
+.MAS {
+    width: 30%;
     padding: 10px;
 }
 
@@ -148,6 +150,48 @@ header::before {
 .internaFIT {
     margin-top: 10px;
     background-color: red;
+    color: white;
+    width: 100%;
+    height: 200px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    border: 2px solid white;
+}
+
+.totalPyV {
+    border-radius: 25px;
+    margin-top: 10px;
+    background-color:darkblue;
+    color: white;
+    width: 100%;
+    height: 150px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    border: 2px solid white;
+}
+
+.internaPyV {
+    margin-top: 10px;
+    background-color: darkblue;
+    color: white;
+    width: 100%;
+    height: 200px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    border: 2px solid white;
+}
+
+.totalMAS {
+    border-radius: 25px;
+    margin-top: 10px;
+    background-color: crimson;
+    color: white;
+    width: 100%;
+    height: 150px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    border: 2px solid white;
+}
+
+.internaMAS {
+    margin-top: 10px;
+    background-color: crimson;
     color: white;
     width: 100%;
     height: 200px;
@@ -391,7 +435,7 @@ button {
 
 .Arouxet {
     flex-grow: 1;
-    background-image: url(./IMGS/6Arouxet2.jpg);
+    background-image: url(./IMGS/ArouxetH.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -429,7 +473,7 @@ button {
 
 .Mestralet {
     flex-grow: 1;
-    background-image: url(./IMGS/7Mestralet3.jpg);
+    background-image: url(./IMGS/AgusSolano.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -455,6 +499,82 @@ button {
 
 .Mestralet button {
     background-color: red;
+    color: white;
+    border-radius: 15px;
+    position: absolute;
+    top: 80%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    height: 20%;
+    width: 50%;
+}
+
+.Aguirre {
+    flex-grow: 1;
+    background-image: url(./IMGS/Aguirre.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+
+.Aguirre::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.Aguirre button {
+    background-color: darkblue;
+    color: white;
+    border-radius: 15px;
+    position: absolute;
+    top: 80%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    height: 20%;
+    width: 50%;
+}
+
+.Schmale {
+    flex-grow: 1;
+    background-image: url(./IMGS/Schmale.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+
+.Schmale::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.Schmale button {
+    background-color:crimson;
     color: white;
     border-radius: 15px;
     position: absolute;
@@ -509,7 +629,9 @@ footer p {
     .FDT,
     .Juntos,
     .LLA,
-    .FIT {
+    .FIT,
+    .PyV,
+    .MAS {
         width: 100%;
     }
 
