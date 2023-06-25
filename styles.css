@@ -195,12 +195,12 @@ button {
     transform: translateY(-50%);
     font-size: 24px;
     height: 20%;
-    width: 50%;
+    width: 66%;
 }
 
-.Vergel {
+.Dalton {
     flex-grow: 1;
-    background-image: url(./IMGS/5Vergel.jpg);
+    background-image: url(./IMGS/dalton.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -214,7 +214,7 @@ button {
     width: 50%;
 }
 
-.Vergel::before {
+.Dalton::before {
     content: "";
     position: absolute;
     top: 0;
@@ -224,7 +224,7 @@ button {
     background-color: rgba(0, 0, 0, 0.3);
 }
 
-.Vergel button {
+.Dalton button {
     background-color: yellow;
     color: black;
     border-radius: 15px;
@@ -233,7 +233,45 @@ button {
     transform: translateY(-50%);
     font-size: 24px;
     height: 20%;
+    width: 66%;
+}
+
+.Spina {
+    flex-grow: 1;
+    background-image: url(./IMGS/spina.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    height: 100%;
     width: 50%;
+}
+
+.Spina::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.Spina button {
+    background-color: yellow;
+    color: black;
+    border-radius: 15px;
+    position: absolute;
+    top: 80%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    height: 20%;
+    width: 66%;
 }
 
 .Wesner {
