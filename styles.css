@@ -67,30 +67,6 @@ header::before {
     font-size: 72px;
 }
 
-.totalFDT {
-    border-radius: 25px;
-    margin-top: 10px;
-    background-color: cornflowerblue;
-    color: white;
-    width: 100%;
-    height: 150px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
-    border: 2px solid white;
-}
-
-.internaFDT {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 10px;
-    background-color: cornflowerblue;
-    color: white;
-    width: 100%;
-    height: 200px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
-    border: 2px solid white;
-}
-
 .totalJuntos {
     border-radius: 25px;
     margin-top: 10px;
@@ -110,7 +86,31 @@ header::before {
     background-color: yellow;
     color: black;
     width: 100%;
-    height: 200px;
+    height: 300px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    border: 2px solid white;
+}
+
+.totalFDT {
+    border-radius: 25px;
+    margin-top: 10px;
+    background-color: cornflowerblue;
+    color: white;
+    width: 100%;
+    height: 150px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    border: 2px solid white;
+}
+
+.internaFDT {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+    background-color: cornflowerblue;
+    color: white;
+    width: 100%;
+    height: 300px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
     border: 2px solid white;
 }
@@ -131,7 +131,7 @@ header::before {
     background-color: black;
     color: yellow;
     width: 100%;
-    height: 200px;
+    height: 300px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
     border: 2px solid yellow;
 }
@@ -152,7 +152,7 @@ header::before {
     background-color: red;
     color: white;
     width: 100%;
-    height: 200px;
+    height: 300px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
     border: 2px solid white;
 }
@@ -173,7 +173,7 @@ header::before {
     background-color: darkblue;
     color: white;
     width: 100%;
-    height: 200px;
+    height: 300px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
     border: 2px solid white;
 }
@@ -194,7 +194,7 @@ header::before {
     background-color: white;
     color: red;
     width: 100%;
-    height: 200px;
+    height: 300px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
     border: 2px solid white;
 }
@@ -238,7 +238,7 @@ button {
     top: 80%;
     transform: translateY(-50%);
     font-size: 24px;
-    height: 20%;
+    height: 15%;
     width: 66%;
 }
 
@@ -276,7 +276,7 @@ button {
     top: 80%;
     transform: translateY(-50%);
     font-size: 24px;
-    height: 20%;
+    height: 15%;
     width: 66%;
 }
 
@@ -314,7 +314,7 @@ button {
     top: 80%;
     transform: translateY(-50%);
     font-size: 24px;
-    height: 20%;
+    height: 15%;
     width: 66%;
 }
 
@@ -353,7 +353,7 @@ button {
     top: 80%;
     transform: translateY(-50%);
     font-size: 24px;
-    height: 20%;
+    height: 15%;
     width: 66%;
 }
 
@@ -391,7 +391,7 @@ button {
     top: 80%;
     transform: translateY(-50%);
     font-size: 24px;
-    height: 20%;
+    height: 15%;
     width: 66%;
 }
 
@@ -429,7 +429,7 @@ button {
     top: 80%;
     transform: translateY(-50%);
     font-size: 24px;
-    height: 20%;
+    height: 15%;
     width: 66%;
 }
 
@@ -467,7 +467,7 @@ button {
     top: 80%;
     transform: translateY(-50%);
     font-size: 24px;
-    height: 20%;
+    height: 15%;
     width: 50%;
 }
 
@@ -505,7 +505,7 @@ button {
     top: 80%;
     transform: translateY(-50%);
     font-size: 24px;
-    height: 20%;
+    height: 15%;
     width: 50%;
 }
 
@@ -543,7 +543,7 @@ button {
     top: 80%;
     transform: translateY(-50%);
     font-size: 24px;
-    height: 20%;
+    height: 15%;
     width: 50%;
 }
 
@@ -581,7 +581,7 @@ button {
     top: 80%;
     transform: translateY(-50%);
     font-size: 24px;
-    height: 20%;
+    height: 15%;
     width: 50%;
 }
 
