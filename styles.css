@@ -104,12 +104,14 @@ header::before {
 .internaJuntos {
     background-color: yellow;
     color: black;
+    border: 2px solid white;
 }
 
 .totalUxP,
 .internaUxP {
     background-color: cornflowerblue;
     color: white;
+    border: 2px solid white;
 }
 
 .totalLLA,
@@ -123,30 +125,33 @@ header::before {
 .internaFIT {
     background-color: red;
     color: white;
+    border: 2px solid white;
 }
 
 .totalPyV,
 .internaPyV {
     background-color:darkblue;
     color: white;
+    border: 2px solid white;
 }
 
 .totalMAS,
 .internaMAS {
     background-color: white;
     color: red;
-    border: 2px solid red;
+    border: 2px solid white;
 }
 
 button {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     border-radius: 15px;
+    border-style: none;
     position: absolute;
-    top: 80%;
+    top: 85%;
     transform: translateY(-50%);
     font-size: 24px;
-    height: 15%;
+    height: 12%;
 }
 
 .Galli,
@@ -265,7 +270,7 @@ button {
 .Arouxet button {
     background-color: black;
     color: yellow;
-    width: 50%;
+    width: 25%;
 }
 
 .Mestralet {
@@ -276,7 +281,7 @@ button {
 .Mestralet button {
     background-color: red;
     color: white;
-    width: 50%;
+    width: 25%;
 }
 
 .Aguirre {
@@ -287,7 +292,7 @@ button {
 .Aguirre button {
     background-color: darkblue;
     color: white;
-    width: 50%;
+    width: 25%;
 }
 
 .Schmale {
@@ -298,7 +303,7 @@ button {
 .Schmale button {
     background-color:white;
     color: red;
-    width: 50%;
+    width: 25%;
 }
 
 footer {
