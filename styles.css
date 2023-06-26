@@ -127,9 +127,9 @@ header::before {
 
 .totalLLA,
 .internaLLA {
-    background-color: black;
-    color: yellow;
-    border: 2px solid yellow;
+    background-color:aquamarine;
+    color:darkslateblue;
+    border: 2px solid white;
 }
 
 .totalFIT,
@@ -279,8 +279,8 @@ button {
 }
 
 .Arouxet button {
-    background-color: black;
-    color: yellow;
+    background-color:aquamarine;
+    color:darkslateblue;
     width: 25%;
 }
 
