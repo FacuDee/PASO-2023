@@ -115,42 +115,42 @@ header::before {
 .internaJuntos {
     background-color: yellow;
     color: black;
-    border: 2px solid white;
+    border: 3px solid white;
 }
 
 .totalUxP,
 .internaUxP {
     background-color: cornflowerblue;
     color: white;
-    border: 2px solid white;
+    border: 3px solid white;
 }
 
 .totalLLA,
 .internaLLA {
     background-color:aquamarine;
     color:darkslateblue;
-    border: 2px solid white;
+    border: 3px solid white;
 }
 
 .totalFIT,
 .internaFIT {
     background-color: red;
     color: white;
-    border: 2px solid white;
+    border: 3px solid white;
 }
 
 .totalPyV,
 .internaPyV {
     background-color:darkblue;
     color: white;
-    border: 2px solid white;
+    border: 3px solid white;
 }
 
 .totalMAS,
 .internaMAS {
     background-color: white;
     color: red;
-    border: 2px solid white;
+    border: 3px solid white;
 }
 
 button {
