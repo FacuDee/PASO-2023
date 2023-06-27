@@ -344,10 +344,6 @@ footer {
     width: auto;
 }
 
-footer p {
-    font-size: 32px;
-}
-
 /* Para versión móvil */
 
 @media (max-width: 883px) {
