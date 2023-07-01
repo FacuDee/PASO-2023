@@ -322,7 +322,7 @@ span {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     padding: 2px;
     border-radius: 5px;
-    font-weight: bold;
+    font-weight: lighter;   
 }
 
 footer {
@@ -341,7 +341,7 @@ footer {
     width: auto;
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 1255px) {
     .containerFuerzas {
         grid-template: 
             "Juntos FdT"
@@ -352,6 +352,10 @@ footer {
 
     .containerFuerzas p {
         font-size: 20px;
+    }
+
+    span {
+        font-weight: bold;
     }
 }
 
