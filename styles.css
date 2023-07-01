@@ -322,7 +322,7 @@ span {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     padding: 2px;
     border-radius: 5px;
-    font-weight: lighter;
+    font-weight: bold;
 }
 
 footer {
@@ -378,6 +378,7 @@ footer {
 
     span {
         font-size: 14px;
+        font-weight: bold;
     }
 }
 
