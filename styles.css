@@ -1,5 +1,10 @@
+html {
+    height: 100%;
+}
+
 body {
     margin: 0;
+    min-height: 100%;
     background-color: black;
 }
 
@@ -26,17 +31,6 @@ header h1 {
     width: 100%;
 }
 
-.containerFuerzas p {
-    position: absolute;
-    color: white;
-    margin: 5px 5px;
-    top: 0;
-    font-size: 22px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-weight: lighter;
-}
-
-
 header::before {
     content: "";
     position: absolute;
@@ -47,21 +41,14 @@ header::before {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-/* Estilos generales de las fuerzas */
-
-.UxP,
-.Juntos,
-.LLA,
-.FIT,
-.PyV,
-.MAS {
-    width: 32%;
-    padding: 10px;
-}
-
 .containerFuerzas {
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    padding: 10px;
+    gap: 20px;
+    grid-template: 
+        "Juntos FdT LLA"
+        "FIT PyV MAS"
+    ;
 }
 
 .containerFuerzas h3 {
@@ -78,6 +65,16 @@ header::before {
     justify-content: center;
     font-family:Arial, Helvetica, sans-serif;
     font-size: 72px;
+}
+
+.containerFuerzas p {
+    position: absolute;
+    color: white;
+    margin: 5px 5px;
+    top: 0;
+    font-size: 22px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: lighter;
 }
 
 .totalJuntos, 
@@ -344,39 +341,40 @@ footer {
     width: auto;
 }
 
-/* Para versión móvil */
+@media (max-width: 1100px) {
+    .containerFuerzas {
+        grid-template: 
+            "Juntos FdT"
+            "LLA FIT"
+            "PyV MAS"
+        ;
+    }
 
-@media (max-width: 883px) {
+    .containerFuerzas p {
+        font-size: 20px;
+    }
+}
 
-    header {
-        height: 300px;
+
+@media (max-width: 768px) {
+    .containerFuerzas {
+        grid-template: 
+            "Juntos"
+            "FdT"
+            "LLA"
+            "FIT"
+            "PyV"
+            "MAS"
+        ;
     }
 
     header h1 {
         font-size: 60px;
     }
 
-    .UxP,
-    .Juntos,
-    .LLA,
-    .FIT,
-    .PyV,
-    .MAS {
-        width: 100%;
-    }
-
-    .containerFuerzas {
-        flex-wrap: wrap;
-    }
-
     .containerFuerzas p {
         font-size: 18px;
-        font-weight: bold;
     }
 }
 
-@media screen and (min-width: 883px) and (max-width: 1178px) {
-    .containerFuerzas button {
-        width: 80%;
-    }
-}
+
