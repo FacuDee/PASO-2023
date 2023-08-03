@@ -171,6 +171,7 @@ button {
 .Rodríguez,
 .Arouxet,
 .Mestralet,
+.Ripoll,
 .Aguirre,
 .Schmale {
     flex-grow: 1;
@@ -194,6 +195,7 @@ button {
 .Rodríguez::before,
 .Arouxet::before,
 .Mestralet::before,
+.Ripoll:before,
 .Aguirre::before,
 .Schmale::before {
     content: "";
@@ -283,14 +285,25 @@ button {
 }
 
 .Mestralet {
-    background-image: url(./IMGS/AgusSolano.jpg);
-    width: 100%;
+    background-image: url(./IMGS/AgusMes.jpg);
+    width: 50%;
 }
 
 .Mestralet button {
     background-color: red;
     color: white;
-    width: 25%;
+    width: 50%;
+}
+
+.Ripoll {
+    background-image: url(./IMGS/Ripoll.jpg);
+    width: 50%;
+}
+
+.Ripoll button {
+    background-color: red;
+    color: white;
+    width: 50%;
 }
 
 .Aguirre {
