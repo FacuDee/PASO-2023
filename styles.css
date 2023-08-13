@@ -21,6 +21,7 @@ header {
 }
 
 header p {
+    margin: 0;
     position: absolute;
     top: 90%;
     left: 50%;
