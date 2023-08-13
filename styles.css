@@ -147,7 +147,7 @@ header::before {
 
 .totalFIT,
 .internaFIT {
-    background-color: red;
+    background-color: #df0000;
     color: white;
     border: 2px solid white;
 }
@@ -162,7 +162,7 @@ header::before {
 .totalMAS,
 .internaMAS {
     background-color: white;
-    color: red;
+    color: #df0000;
     border: 2px solid white;
 }
 
@@ -307,7 +307,7 @@ button {
 }
 
 .Mestralet button {
-    background-color: red;
+    background-color: #df0000;
     color: white;
     width: 50%;
 }
@@ -318,7 +318,7 @@ button {
 }
 
 .Ripoll button {
-    background-color: red;
+    background-color: #df0000;
     color: white;
     width: 50%;
 }
@@ -341,7 +341,7 @@ button {
 
 .Schmale button {
     background-color:white;
-    color: red;
+    color: #df0000;
     width: 25%;
 }
 
