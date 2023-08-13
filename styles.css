@@ -79,7 +79,7 @@ header::before {
     display: flex;
     justify-content: center;
     font-family: 'Russo One', sans-serif;
-    font-size: 72px;
+    font-size: 66px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
